@@ -8,9 +8,9 @@ Each project includes a detailed description of the objective, approach, tools u
 
 - [Technologies](#technologies)
 - [Projects](#projects)
-  - [Project 1: MNIST](#MNIST)
-  - [Project 2: NLP Sentiment Analysis](#project-2-nlp-sentiment-analysis)
-  - [Project 3: Recommender System](#project-3-recommender-system)
+  - [Project 1: [MNIST](#MNIST)]
+  - [Project 2: [Spaceship_Titanic](#Spaceship_Titanic)]
+  - [Project 3: [Titanic](#Titanic)]
 
 
 
