@@ -1,1 +1,0 @@
-# ogólny opis projektu i instrukcje
