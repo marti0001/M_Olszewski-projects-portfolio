@@ -11,6 +11,7 @@ Each project includes a detailed description of the objective, approach, tools u
   - [Project 1: MNIST](#project-1-mnist)
   - [Project 2: Spaceship Titanic](#project-2-spaceship-titanic)
   - [Project 3: Titanic](#project-3-titanic)
+  - [Project 4: Emotion Model](#project-4-emotion-model)
 
 ---
 
@@ -52,3 +53,10 @@ In my projects, I use the following tools and technologies:
 - **Objective:** Predict passenger survival on the Titanic.
 - **Results:** Achieved 0.83839 accuracy on the test set.
 
+### Project 4: Emotion Model
+
+**Description:** This project focuses on image classification using transfer learning with the pre-trained InceptionV3 model. The objective was to effectively classify images into multiple categories, leveraging transfer learning to achieve high accuracy while optimizing computational resources.
+
+- **Tools:** TensorFlow, Keras, OpenCV, NumPy
+- **Objective:** I created a convolution neural network (CNN) and utilized transfer learning to classify images efficiently and accurately into predefined categories. The models used include VGG16, ResNet50, and InceptionV3.
+- **Results:** Achieved over X% accuracy on the test dataset. The model demonstrates robust performance and generalization on test data.
