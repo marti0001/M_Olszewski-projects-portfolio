@@ -21,10 +21,15 @@ The objective is to predict the survival status of Titanic passengers based on f
 - Handling missing values in the dataset.
 - Visualization of key patterns and relationships in the data.
 - Predictive modeling using algorithms like logistic regression and decision trees.
+- Use of advanced models:
+    - XGBoost
+    - LightGBM
+    - CatBoost
+- Use of RandomizedSearchCV to find the optimal hyperparameters for each model.
 - Model evaluation with metrics such as accuracy.
 
 ### Project Status
-The project is complete, and no further updates are planned.
+The project is not complete, and further updates are planned.
 
 
 ### Sources
