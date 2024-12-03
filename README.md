@@ -1,7 +1,7 @@
 # Portfolio Machine Learning / Artificial Intelligence
 
 Hello! 
-I'm Marcin Olszewski and this repository showcase a selection of my projects, covering various areas in machine learning, deep learining, and data analysis.
+I'm Marcin Olszewski and this repository showcase a selection of my projects, covering various areas in machine learning, deep learning, and data analysis.
 Each project includes a detailed description of the objective, approach, tools used, and outcomes
 
 ## Table of Contents
@@ -59,4 +59,4 @@ In my projects, I use the following tools and technologies:
 
 - **Tools:** TensorFlow, Keras, OpenCV, NumPy
 - **Objective:** I created a convolution neural network (CNN) and utilized transfer learning to classify images efficiently and accurately into predefined categories. The models used include VGG16, ResNet50, and InceptionV3.
-- **Results:** Achieved over X% accuracy on the test dataset. The model demonstrates robust performance and generalization on test data.
+- **Results:**  The model demonstrates robust performance and generalization on test data.
