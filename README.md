@@ -1,7 +1,7 @@
 # Portfolio Machine Learning / Artificial Intelligence
 
 Hello! 
-I'm Marcin Olszewski and this repository showcase a selection of my projects, covering various areas in machine learning, deep learning, and data analysis.
+I'm Marcin Olszewski and this repository showcases a selection of my projects, covering various areas in machine learning, deep learning, and data analysis.
 Each project includes a detailed description of the objective, approach, tools used, and outcomes
 
 ## Table of Contents
