@@ -43,7 +43,7 @@ In my projects, I use the following tools and technologies:
 
 - **Tools:** Scikit-learn, Pandas
 - **Objective:** Develop a model to classify passenger survival based on available features.
-- **Results:** Achieved 0.61959 accuracy in prediction.
+- **Results:** Achieved 0.64648 accuracy in prediction.
 
 ### Project 3: Titanic
 

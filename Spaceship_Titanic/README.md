@@ -41,4 +41,6 @@ This project focuses on analyzing and modeling data from the Spaceship Titanic p
 
 
 ### Project Status
-The project is not complete, and further updates are planned.
+The project is not finished, further updates are planned.
+
+In the new notebook v2 I applied one hot encoding which improved the model achievement from 0.61959 to 0.64648 on the Kaggle website
