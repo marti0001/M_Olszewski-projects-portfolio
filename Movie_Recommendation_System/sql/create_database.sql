@@ -1,0 +1,1 @@
+CREATE DATABASE Movie_Recommendation_Base

@@ -1,0 +1,1 @@
+DROP TABLE tmdb_5000_movies, tmdb_5000_credits;

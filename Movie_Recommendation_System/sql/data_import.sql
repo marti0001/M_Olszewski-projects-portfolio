@@ -1,8 +1,7 @@
--- Import Tabela: credits
-COPY movies_metadata( adult, belongs_to_collection, budget, genres, homepage, id, imdb_id, original_language,
-	original_title, overview, popularity, poster_path, production_companies, production_countries, release_date, revenue, runtime,
-	spoken_languages, status, tagline, title, video,vote_average, vote_count)
-FROM 'C:\Home_Base\Repozytorium\Movie_Recommendation_System\input\movies_metadata.csv'
+-- Import Table: tmdb_5000_movies
+COPY tmdb_5000_movies(budget,genres,homepage,id,keywords,original_language,original_title,overview,popularity,production_companies,production_countries,
+release_date,revenue,runtime,spoken_languages,status,tagline,title,vote_average,vote_count)
+FROM 'C:\Home_Base\Repozytorium\M_Olszewski-projects-portfolio\Movie_Recommendation_System\input\tmdb_5000_movies.csv'
 WITH ( 
     FORMAT 'csv', 
     DELIMITER ',', 
@@ -10,9 +9,9 @@ WITH (
 
 ); 
 
--- Import Tabela: credits
-COPY credits (cast_info, crew, id)
-FROM '../input/credits.csv'
+-- Import Table: tmdb_5000_credits
+COPY tmdb_5000_credits (movie_id,title,cast_info,crew)
+FROM 'C:\Home_Base\Repozytorium\M_Olszewski-projects-portfolio\Movie_Recommendation_System\input\tmdb_5000_credits.csv'
 WITH ( 
     FORMAT 'csv', 
     DELIMITER ',', 
@@ -20,32 +19,3 @@ WITH (
 
 );
 
--- Import Tabela: keywords
-COPY keywords (id, keywords)
-FROM '../input/keywords.csv'
-WITH ( 
-    FORMAT 'csv', 
-    DELIMITER ',', 
-    HEADER TRUE 
-
-);
-
--- Import Tabela: links
-COPY links (movieId, imdbId, tmdbId)
-FROM '../input/links.csv'
-WITH ( 
-    FORMAT 'csv', 
-    DELIMITER ',', 
-    HEADER TRUE 
-
-);
-
--- Import Tabela: ratings
-COPY ratings (userId, movieId, rating, timestamp)
-FROM '../input/ratings.csv'
-WITH ( 
-    FORMAT 'csv', 
-    DELIMITER ',', 
-    HEADER TRUE 
-
-);
