@@ -1,21 +1,36 @@
--- Import Table: tmdb_5000_movies
-COPY tmdb_5000_movies(budget,genres,homepage,id,keywords,original_language,original_title,overview,popularity,production_companies,production_countries,
-release_date,revenue,runtime,spoken_languages,status,tagline,title,vote_average,vote_count)
-FROM 'C:\Home_Base\Repozytorium\M_Olszewski-projects-portfolio\Movie_Recommendation_System\input\tmdb_5000_movies.csv'
+-- Import Table: movies
+COPY movies (movieId,title,genres)
+FROM 'C:\Home_Base\Repozytorium\Movie_Recommendation_System\input\movies.csv'
 WITH ( 
     FORMAT 'csv', 
     DELIMITER ',', 
     HEADER TRUE 
-
 ); 
 
--- Import Table: tmdb_5000_credits
-COPY tmdb_5000_credits (movie_id,title,cast_info,crew)
-FROM 'C:\Home_Base\Repozytorium\M_Olszewski-projects-portfolio\Movie_Recommendation_System\input\tmdb_5000_credits.csv'
+-- Import Table: links
+COPY links (movieId,imdbId,tmdbId)
+FROM 'C:\Home_Base\Repozytorium\Movie_Recommendation_System\input\links.csv'
+WITH ( 
+    FORMAT 'csv', 
+    DELIMITER ',', 
+    HEADER TRUE 
+);
+
+-- Import Table: ratings
+COPY ratings(userId,movieId,rating,timestamp)
+FROM 'C:\Home_Base\Repozytorium\Movie_Recommendation_System\input\ratings.csv'
+WITH ( 
+    FORMAT 'csv', 
+    DELIMITER ',', 
+    HEADER TRUE 
+);
+
+-- Import Table: tags
+COPY tags(userId,movieId,tag,timestamp)
+FROM 'C:\Home_Base\Repozytorium\Movie_Recommendation_System\input\tags.csv'
 WITH ( 
     FORMAT 'csv', 
     DELIMITER ',', 
     HEADER TRUE 
 
 );
-

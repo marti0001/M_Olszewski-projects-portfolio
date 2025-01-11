@@ -1,1 +1,1 @@
-CREATE DATABASE Movie_Recommendation_Base
+CREATE DATABASE RS03_Recommendation_BASE
