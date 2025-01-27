@@ -1,28 +1,44 @@
 # House Prices 
 
 ##Project Description
-This project was created for the Kaggle competition focused on predicting house prices based on various property features. The primary goal was to develop machine learning models to estimate house prices accurately. The project includes data preprocessing, baseline modeling, and training advanced regression models using K-Fold cross-validation.
+
+The goal of this project was to tackle the Kaggle competition House Prices: Advanced Regression Techniques, which focuses on predicting house prices based on given data. The project involved data analysis, preparation, advanced data processing pipelines, and the application and optimization of various regression models.
 
 ## Project Features
 
+Project Features
 1. Task Analysis
-- Detailed exploration of the problem and dataset provided by Kaggle.
-- Identification of the target variable (SalePrice) and feature engineering opportunities.
-
+- Detailed examination of the competition's objective and understanding the key features of the dataset.
+- Exploration of the data structure, input variables, and target variable.
 2. Data Preparation
-- Handling Missing Data:
-	- Filling missing values using techniques like median or mode.
-- Feature Transformation:
-	- Encoding categorical variables using One-Hot Encoding.
-- Standardizing numerical variables to ensure proper scaling for regression models.
+- Handling missing values:
+	- For categorical variables: None.
+- Data transformation:
+	- Categorical variables were encoded using One-Hot Encoding.
+	- Numerical variables were standardized.
+- Ensured proper data splitting into training and validation sets.
+3. Pipeline Construction
+- Created data processing pipelines:
+	- Pipeline for numerical features:
+		- Standardization.
+	- Pipeline for categorical features:
+		- One-Hot Encoding.
+- Integrated pipelines with models to automate the processing and training workflow.
+4. Model Building
+- Trained regression models:
+	- LinearRegression as a baseline model.
+	- Models with hyperparameter tuning:
+		- GridSearchCV: Ridge, RandomForestRegressor, XGBRegressor, GradientBoostingRegressor, LGBMRegressor, CatBoostRegressor.
+		- RandomizedSearchCV: RandomForestRegressor, XGBRegressor, GradientBoostingRegressor, LGBMRegressor, CatBoostRegressor.
+5. Advanced Ensemble Models
+- VotingRegressor: Combined predictions from multiple models using averaged outputs.
+- StackingRegressor: Leveraged base models with predictions aggregated through a meta-model.
 
-3. Baseline Model
-- A DummyRegressor was used as a baseline model to establish a reference for performance comparison with more advanced models.
 
-4. Advanced Models
-Implementation of multiple regression algorithms with K-Fold Cross-Validation:
-- DecisionTreeRegressor
-- RandomForestRegressor
-- ExtraTreesRegressor
-- GradientBoostingRegressor
-- XGBRegressor
+Technologies and Tools
+Programming Language: Python 3.8+
+Libraries:
+Pandas, NumPy (data manipulation)
+Scikit-learn (pipeline, GridSearchCV, RandomizedSearchCV, ensemble models)
+XGBoost, LightGBM, CatBoost (advanced boosting algorithms)
+Matplotlib, Seaborn (data visualization)
