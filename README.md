@@ -12,6 +12,7 @@ Each project includes a detailed description of the objective, approach, tools u
   - [Project 2: Spaceship Titanic](#project-2-spaceship-titanic)
   - [Project 3: Titanic](#project-3-titanic)
   - [Project 4: Emotion Model](#project-4-emotion-model)
+  - [Project 5: House Prices](#project-5-House Prices)
 
 ---
 
@@ -19,7 +20,7 @@ Each project includes a detailed description of the objective, approach, tools u
 
 In my projects, I use the following tools and technologies:
 
-- **Programming Languages:** Python
+- **Programming Languages:** Python,SQL
 - **ML/AI Libraries and Frameworks:** TensorFlow, Keras, Scikit-learn
 - **Data Analysis and Visualization:** Pandas, NumPy, Matplotlib, Seaborn
 - **Other Tools:** Jupyter Notebook, Git
@@ -35,7 +36,6 @@ In my projects, I use the following tools and technologies:
 - **Tools:** TensorFlow, Keras
 - **Objective:** Achieve high accuracy in classifying handwritten digits.
 - **Results:** Achieved over 99,9% accuracy on the test dataset. I took 34th place in the competition on the kaggle website
-- 
 
 ### Project 2: Spaceship Titanic
 
@@ -60,3 +60,11 @@ In my projects, I use the following tools and technologies:
 - **Tools:** TensorFlow, Keras, OpenCV, NumPy
 - **Objective:** I created a convolution neural network (CNN) and utilized transfer learning to classify images efficiently and accurately into predefined categories. The models used include VGG16, ResNet50, and InceptionV3.
 - **Results:**  The model demonstrates robust performance and generalization on test data.
+
+### Project 5: House Prices
+
+**Description:** Description: This project tackles the Kaggle competition on predicting house prices using advanced regression techniques. It includes data analysis, preprocessing with pipelines, and training multiple regression models. Ensemble methods such as VotingRegressor and StackingRegressor were employed to improve performance.
+
+- **Tools:** Scikit-learn, XGBoost, LightGBM, CatBoost, Pandas, NumPy
+- **Objective:** Accurately predict house prices based on detailed housing data.
+- **Results:** Successfully built and optimized models using GridSearchCV and RandomizedSearchCV, achieving high accuracy on validation data. I took 844th place in the competition on the Kaggle website
