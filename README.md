@@ -12,7 +12,9 @@ Each project includes a detailed description of the objective, approach, tools u
   - [Project 2: Spaceship Titanic](#project-2-spaceship-titanic)
   - [Project 3: Titanic](#project-3-titanic)
   - [Project 4: Emotion Model](#project-4-emotion-model)
-  - [Project 5: House Prices](#project-5-House Prices)
+  - [Project 5: House Prices](#project-5-house-prices)
+  - [Project 6: Movie_Recommendation_System](#project-6-movie-recommendation-system)
+
 
 ---
 
@@ -68,3 +70,11 @@ In my projects, I use the following tools and technologies:
 - **Tools:** Scikit-learn, XGBoost, LightGBM, CatBoost, Pandas, NumPy
 - **Objective:** Accurately predict house prices based on detailed housing data.
 - **Results:** Successfully built and optimized models using GridSearchCV and RandomizedSearchCV, achieving high accuracy on validation data. I took 844th place in the competition on the Kaggle website
+
+### Project 6: Movie_Recommendation_System
+
+**Description:** This project involves building a recommendation system for movies using Pearson Correlation. It calculates user similarities based on ratings and generates personalized movie recommendations.
+
+- **Tools:** SQL, Python, Pandas, NumPy
+- **Objective:** Recommend movies to users based on their preferences and similarities with other users.
+- **Results:** Successfully implemented a recommendation mechanism using Pearson correlation, supporting both existing and new users.
