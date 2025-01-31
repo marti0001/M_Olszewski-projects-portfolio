@@ -1,46 +1,49 @@
 # Spaceship Titanic
 
 ## Project Description
-This project focuses on analyzing and modeling data from the Spaceship Titanic problem, where the goal is to predict whether passengers aboard a spaceship were transported to another dimension. 
+
+The goal of this project is to predict whether passengers aboard the Spaceship Titanic were transported to another dimension using machine learning classification models. The workflow includes data analysis, preprocessing, model training, and optimization using GridSearchCV and Stacking Classifier.
 
 ## Project Structure
-1. Data Analysis
-- Exploration of the dataset to understand its structure and relationships between features.
-- Key insights:
-    - Identification of important features.
-    - Detection of missing data in several columns.
 
-2. Data Visualization
-- Creation of visualizations such as distribution plots, correlation matrices, and feature-relationship plots.
-- Key insights:
-    - Visualization revealed significant relationships between features and the target variable.
-    - Identification of unusual patterns in the data that might affect model performance.
+1. Data Loading
+- Importing the dataset into the analysis environment.
+- Splitting data into training and test sets.
+
+2. Visual Data Analysis
+- Exploring feature distributions.
+- Identifying missing values and relationships between variables.
 
 3. Data Preparation
-- Categorical to Numerical Conversion:
-    - Encoding categorical features like HomePlanet and Destination using techniques such as OneHotEncoding or LabelEncoding.
-- Handling Missing Data:
-    - Filling missing values using mean, median, or default values depending on the feature.
+- Extracting additional information by splitting specific columns.
+- Identifying key features for model training.
 
-4. Model Development
-- Use of advanced models:
-    - XGBoost
-    - LightGBM
-    - CatBoost
-- Model validation:
-    - Data split into training and validation sets using stratified validation (Stratified K-Fold).
-    - Comparison of results across groups to assess model stability.
+4. Categorical and Numerical Feature Separation
+- Separating numerical and categorical variables for different preprocessing techniques.
 
-5. Hyperparameter Optimization
-- Use of RandomizedSearchCV to find the optimal hyperparameters for each model.
-  
-6. Training and Evaluating the Best Model
-- Training the best-performing model on the full training dataset.
-- Generating predictions on the test dataset.
-- Saving the model for future use.
+5. Data Processing Pipelines
+- Pipeline for Categorical Features
+	- OneHotEncoder – Encoding categorical values.
+	- KNNImputer – Filling missing values based on nearest neighbors.
+- Pipeline for Numerical Features
+	- StandardScaler – Standardizing numerical features.
+	- KNNImputer – Imputing missing values based on nearest neighbors.
+6. Building Classification Models
+- Model training using GridSearchCV to optimize hyperparameters for:
+	- LogisticRegression
+	- DecisionTreeClassifier
+	- RandomForestClassifier
+	- XGBClassifier
+	- LGBMClassifier
+7. Ensemble Learning – Stacking Classifier
+- Implementing StackingClassifier to combine multiple classification models and improve prediction accuracy.
 
 
-### Project Status
-The project is not finished, further updates are planned.
+## Technologies and Tools
 
-In the new notebook v2 I applied one hot encoding which improved the model achievement from 0.61959 to 0.64648 on the Kaggle website
+Programming Language: Python
+Libraries:
+Pandas, NumPy – Data manipulation
+Matplotlib, Seaborn – Data visualization
+Scikit-learn – Preprocessing, classification models, GridSearchCV, StackingClassifier
+XGBoost, LightGBM – Advanced boosting algorithms
