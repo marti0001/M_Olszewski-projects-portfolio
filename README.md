@@ -33,7 +33,8 @@ In my projects, I use the following tools and technologies:
 
 ### Project 1: MNIST
 
-**Description:** This project focuses on image classification using the MNIST dataset, which contains handwritten digits. The objective was to create a convolutional neural network (CNN) to accurately classify digits from 0 to 9.
+**Description:** 
+This project focuses on image classification using the MNIST dataset, which contains handwritten digits. The objective was to create a convolutional neural network (CNN) to accurately classify digits from 0 to 9.
 
 - **Tools:** TensorFlow, Keras
 - **Objective:** Achieve high accuracy in classifying handwritten digits.
@@ -41,15 +42,17 @@ In my projects, I use the following tools and technologies:
 
 ### Project 2: Spaceship Titanic
 
-**Description:** This project aims to predict whether passengers were transported to an alternate dimension in the fictional Spaceship Titanic dataset. The problem is approached as a binary classification task.
+**Description:**
+This project focuses on predicting whether passengers aboard the Spaceship Titanic were transported to another dimension using machine learning classification models. The workflow includes data preprocessing, feature engineering, model training, and optimization. Various classification models were tested, including logistic regression, decision trees, random forests, and boosting algorithms, with ensemble techniques such as StackingClassifier improving final predictions.
 
-- **Tools:** Scikit-learn, Pandas
-- **Objective:** Develop a model to classify passenger survival based on available features.
-- **Results:** Achieved 0.64648 accuracy in prediction.
+- **Tools:** Scikit-learn, XGBoost, LightGBM, Pandas, NumPy
+- **Objective:** Implemented advanced preprocessing pipelines and model stacking, leading to improved classification accuracy.
+- **Results:** Achieved 0.80196 accuracy in prediction.
 
 ### Project 3: Titanic
 
-**Description:** A classic data science project using the Titanic dataset to predict passenger survival. This project explores data preprocessing, feature engineering, and model tuning for binary classification.
+**Description:** 
+A classic data science project using the Titanic dataset to predict passenger survival. This project explores data preprocessing, feature engineering, and model tuning for binary classification.
 
 - **Tools:** Scikit-learn, Pandas
 - **Objective:** Predict passenger survival on the Titanic.
