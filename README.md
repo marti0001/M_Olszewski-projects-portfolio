@@ -14,6 +14,9 @@ Each project includes a detailed description of the objective, approach, tools u
   - [Project 4: Emotion Model](#project-4-emotion-model)
   - [Project 5: House Prices](#project-5-house-prices)
   - [Project 6: Movie_Recommendation_System](#project-6-movie-recommendation-system)
+  - [Project 7: Movie_Recommendation_System_TF-IDF](#project-6-movie-recommendation-system-TF-IDF)
+
+
 
 
 ---
@@ -81,3 +84,11 @@ A classic data science project using the Titanic dataset to predict passenger su
 - **Tools:** SQL, Python, Pandas, NumPy
 - **Objective:** Recommend movies to users based on their preferences and similarities with other users.
 - **Results:** Successfully implemented a recommendation mechanism using Pearson correlation, supporting both existing and new users.
+
+### Project 7: Movie_Recommendation_System_TF-IDF
+
+**Description:** This project builds a movie recommendation system using TF-IDF vectorization and collaborative filtering. It analyzes movie titles for similarity and suggests films based on user ratings. The system provides real-time recommendations through an interactive search feature.
+
+- **Tools:** Python, Pandas, NumPy, Scikit-learn, IPython Widgets
+- **Objective:** Recommend movies based on title similarity and user preferences using machine learning techniques.
+- **Results:** Successfully implemented a dynamic recommendation system that updates in real-time and suggests relevant movies based on user input.
